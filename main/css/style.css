@@ -1,0 +1,15 @@
+.block{
+    display: block;
+}
+.l-block{
+    display: inline-block;
+}
+.line{
+    display: inline;
+}
+
+.prod{
+    background-color: rgba(0,0,0, 0.3);
+    color: black;
+    font-size: 18px;
+}

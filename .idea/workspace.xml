@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e4515cd-fd41-4487-8b44-5df1d1731477" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ajax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/CConfigs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/CProducts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/cfg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/table.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oWT93SFzusiU7UmJCSXYHb33GR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e4515cd-fd41-4487-8b44-5df1d1731477" name="Default Changelist" comment="" />
+      <created>1613401192032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613401192032</updated>
+      <workItem from="1613401193432" duration="10230000" />
+      <workItem from="1613466708165" duration="30781000" />
+      <workItem from="1613553336518" duration="27171000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1613567148093">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1613567148093" />
+    <state x="552" y="178" width="816" height="729" key="#Intentions" timestamp="1613473787148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="816" height="729" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1613473787148" />
+    <state x="717" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613402759660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613402759660" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613495692117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613495692117" />
+  </component>
+</project>
