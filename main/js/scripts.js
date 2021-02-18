@@ -3,6 +3,8 @@
 $(document).ready(function (){
     //скрытие строки
     let counter = $("#counter");
+    let tbody = $("tbody");
+    let changeCountTimerID;
 
     $(document).on('click', ".btn-row-hide", function (){
         let btn = $(this);
@@ -17,7 +19,7 @@ $(document).ready(function (){
         }, function (response){
             if(response.success){
                 row.remove();
-                reloadTable();
+                downloadRowsTable();
             } else {
                 $("#hideSpan").replaceWith(btn);
                 console.log(response.message);
@@ -25,9 +27,11 @@ $(document).ready(function (){
         });
     });
 
+    let checkCointBtn; //проверка нажатой кновки
     //изменение на кнопки +- и в инпут значений.
     $("#plus").click(function (){
         let count = (+counter.val());
+        checkCointBtn = true;
         counter.val(++count).change();
     });
 
@@ -37,30 +41,39 @@ $(document).ready(function (){
         if (count < 0){
             count = 0;
         }
-
+        checkCointBtn = false;
         counter.val(count).change();
     });
 
     counter.change(function (){
-        $.post('/ajax.php',{
-            'method':'changeCounter',
-            'count' : this.value
-        }, function (response){
-            if (!response.success){
-                console.log(response.message);
+        clearTimeout(changeCountTimerID);
+        changeCountTimerID = setTimeout(function (){
+            $.post('/ajax.php',{
+                'method':'changeCounter',
+                'count' : +counter.val()
+            }, function (response){
+                if (!response.success){
+                    console.log(response.message);
+                }
+            });
+
+            if (tbody.children().length > +counter.val()){
+                tbody.children().slice(( +counter.val() )).remove();
+            } else {
+                downloadRowsTable();
             }
-        });
-        reloadTable();
+        }, 250);
     });
 
-
-    function reloadTable() {
+    function downloadRowsTable() {
+        let count = +counter.val();
+        let offset = tbody.children().length;
         $.post('/ajax.php', {
             'method': 'reloadTable',
-            'count': counter.val()
+            'count': count - offset,
+            'offset': offset
         }, function (response) {
             if (response.success) {
-                let tbody = $("tbody").empty();
                 response.data.forEach(function (product) {
                     let rowHtml = $('<tr class="row" data-id="' + product.ID + '" ></tr>');
                     rowHtml.append('<td>' + product.ID + '</td>');
@@ -79,4 +92,11 @@ $(document).ready(function (){
         });
     }
 
+    // $("#btn-timer").click(function (){
+    //     let val = +$("#num-test").val();
+    //     $("#num-test").val(++val);
+    // });
+
+
+   // setTimeout($("#btn-timer").click, 1000);
 });

@@ -11,13 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e4515cd-fd41-4487-8b44-5df1d1731477" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ajax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/CConfigs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/CProducts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/cfg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/CProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/CProducts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
       <workItem from="1613401193432" duration="10230000" />
       <workItem from="1613466708165" duration="30781000" />
       <workItem from="1613553336518" duration="27171000" />
+      <workItem from="1613645686964" duration="24812000" />
     </task>
     <servers />
   </component>
@@ -72,10 +72,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="198" key="#Inspections" timestamp="1613567148093">
+    <state x="586" y="198" key="#Inspections" timestamp="1613648402054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1613567148093" />
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1613648402054" />
     <state x="552" y="178" width="816" height="729" key="#Intentions" timestamp="1613473787148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

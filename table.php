@@ -5,7 +5,7 @@ require_once "db/CProducts.php";
 $Products = new CProducts($connectCfg);
 $Configs = new CConfigs($connectCfg);
 $count = $Configs->getConfig('counter');
-$arr = $Products->get($count);
+$arr = $Products->get($count, 0);
 
 //start row
 ?>

@@ -38,7 +38,7 @@ if (isset($_POST['method'])){
             $count = $_POST['count'];
             if (!empty($count) || $count == 0 ){
                 $Products = new CProducts($connectCfg);
-                echo successResult($Products->get($count));
+                echo successResult($Products->get($count, $_POST['offset']));
             } else {
                  echo failResult('Count значение не указано');
             }

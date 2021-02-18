@@ -32,6 +32,9 @@
     </tfoot>
 </table>
 
+<!--<input type="submit" id="btn-timer"  value="+"/>
+<input style="width: 100px" type="number" name="counter" id="num-test" value="123" min="0"/> -->
+
 <?
     require_once "footer.php";
 ?>
